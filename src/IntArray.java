@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package PACKAGE_NAME;public class IntArray {
-=======
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -144,6 +141,4 @@ public class IntArray {
         }
         sorted=true;
     }
-
->>>>>>> 400b23f (Initial commit)
 }

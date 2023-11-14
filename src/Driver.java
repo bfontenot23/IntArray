@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package PACKAGE_NAME;public class Driver {
-=======
 public class Driver {
     public static void main(String[] args)
     {
@@ -20,5 +17,4 @@ public class Driver {
         System.out.println(array);
 
     }
->>>>>>> 400b23f (Initial commit)
 }
