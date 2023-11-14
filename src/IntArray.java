@@ -49,11 +49,18 @@ public class IntArray {
         return sorted;
     }
 
+    /*
+    getArr - returns the arraylist
+    @return - the arraylist
+     */
     public ArrayList<Integer> getArr()
     {
         return arr;
     }
 
+    /*
+    randomize - randomizes the array
+     */
     public void randomize()
     {
         ArrayList<Integer> narr = new ArrayList<Integer>();
@@ -77,18 +84,29 @@ public class IntArray {
         sorted = false;
     }
 
+    /*
+    toString - override method toString()
+    @return - string value of arraylist
+     */
     public String toString()
     {
         return arr.toString();
     }
 
+    /*
+    add - adds an element to the end of the array
+    @param num - an integer to be added to the array
+     */
     public void add(Integer num)
     {
         arr.add(num);
         size++;
     }
 
-
+/*
+sort - sorts the list either from high to low or low to high
+@param lth - if true: low to high.  if false: high to low.
+ */
     public void sort(boolean lth)
     {
         if(lth)
