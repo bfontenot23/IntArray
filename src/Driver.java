@@ -18,6 +18,7 @@ public class Driver {
         System.out.println(array.getSize());
         array.sort(true);
         System.out.println(array);
+
     }
 >>>>>>> 400b23f (Initial commit)
 }
